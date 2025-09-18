@@ -1,0 +1,50 @@
+{
+  "title": "Sample Adventure Novel",
+  "intro": "This is a sample adventure novel.\nUsed to demo and test the Adventure Novel Player application.",
+  "author": "Alex Znyk",
+  "creationDate": "9/18/2025",
+  "reviewDate": "9/18/2025",
+  "releaseDate": "9/18/2025",
+  "paragraphs": [
+    {
+      "id": 1,
+      "title": "The adventure begins",
+      "text": "You are in a forest.\nIn front of you are free paths.\nWhich way do you go?",
+      "question": "What will you do next?",
+      "choices": ["Go Left", "Go Forward", "Go Right"],
+      "nextParagraph": [2, 3, 4]
+    },
+    {
+      "id": 2,
+      "title": "The adventure continues",
+      "text": "You are in a forest.\nThe path you chose ends\nThere is no way forward.\nYour only option is to turn back.",
+      "question": "What will you do next?",
+      "choices": ["Wait and think", "Return to the intersection"],
+      "nextParagraph": [2, 1]
+    },
+    {
+      "id": 3,
+      "title": "A sinister encounter",
+      "text": "In front of you stands a huge bear\nThe bear is upset by your presence!",
+      "question": "What will you do?",
+      "choices": ["Run back", "Fight the bear"],
+      "nextParagraph": [1, 999]
+    },
+    {
+      "id": 4,
+      "title": "The right way",
+      "text": "You have found the right path\nYou reach the end of the forest.\nYou have found the town",
+      "question": "What will you do?",
+      "choices": ["Start again", "End for today"],
+      "nextParagraph": [1, 0]
+    },
+    {
+      "id": 999,
+      "title": "A sad end",
+      "text": "You were no match for a grown bear\nThis is a sad end for your adventures.",
+      "question": "Do you want to start again?",
+      "choices": ["Start again", "End for today"],
+      "nextParagraph": [1, 0]
+    },
+  ]
+}
